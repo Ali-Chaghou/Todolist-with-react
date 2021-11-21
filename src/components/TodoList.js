@@ -2,12 +2,6 @@ import React from 'react'
 import Todo from './Todo'
 import {useState, useEffect } from "react";
 
-const alltodos = [
-    {"description": "Mit meine Kids spielen", "done":true},
-    {"description": "Einkaufen", "done":false},
-    {"description": "Todolist in React Programmieren", "done":false},
-];
-
 const TodoList = () => {
     const [opencount, countOpenTodos] = useState(0);
     const [todos, setTodos] = useState(() => {
