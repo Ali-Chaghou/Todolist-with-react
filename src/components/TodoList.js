@@ -60,8 +60,8 @@ useEffect(() => {
     return (
         <div className="shadow-sm hover:shadow-lg">
             <div className="text-center bg-gray-900 text-white text-3xl py-4 font-semibold">
-                <h1 className="text-3xl" >Meine Todo's</h1>
-                <h2>Offene Todos: {opencount}</h2>
+                <h1 className="text-3xl" >Ali's Todo's</h1>
+                <h2 className="text-xl text-green-600" >Offene Todos: {opencount}</h2>
                 <form className="grid grid-cols-3 py-2">
                     <input  onChange={changeText} type="text" value={textinput} placeholder="Neues Todo..." className="col-span-2 py-2 text-gray-900"></input>
                     <input onClick={submit} type="submit" value="Add todo" className="col-span-1 text-gray-900 cursor-pointer "></input>
